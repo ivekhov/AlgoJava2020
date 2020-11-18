@@ -3,6 +3,7 @@ package com.otus.algo;
 
 import com.otus.algo.string_length_0.StringLength;
 import com.otus.algo.tester.Tester;
+import com.otus.algo.tickets_lucky_1_1.LuckyTickets;
 
 import java.io.IOException;
 
@@ -23,7 +24,10 @@ public class Main {
     }
 
     public static void testLuckyTickets() throws IOException {
-        //
+        LuckyTickets task = new LuckyTickets();
+        String path = "./data/tickets_1";
+        Tester tester = new Tester(task, path);
+        tester.runTest();
     }
 
 }

@@ -1,5 +1,0 @@
-Test #0 is true, time: 0.367813 ms
-Test #1 is true, time: 0.15926 ms
-Test #2 is true, time: 0.134824 ms
-Test #3 is true, time: 0.117735 ms
-Test #4 is true, time: 0.119479 ms
