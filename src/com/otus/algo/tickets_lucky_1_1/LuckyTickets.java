@@ -16,7 +16,6 @@ public class LuckyTickets implements Task {
         // ToDo : BigInt on 5 file
         // ToDo 2 : rewrite algoryth
 
-
         qty = 0;
         NextDigit(0, 0, 0);
         System.out.println(qty);
