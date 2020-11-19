@@ -21,6 +21,8 @@ public class Main {
 // Lesson #1. Task #3 Harry Potter Spell
         guessSpell();
 
+
+
     }
     public static void testStringLength() throws IOException {
         StringLength task = new StringLength();

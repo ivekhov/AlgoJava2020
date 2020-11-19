@@ -3,8 +3,6 @@ package com.otus.algo.tickets_lucky_1_1;
 
 import com.otus.algo.tester.Task;
 
-import java.math.BigInteger;
-
 public class LuckyTickets implements Task {
 
     int n;
