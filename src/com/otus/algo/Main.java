@@ -1,6 +1,7 @@
 package com.otus.algo;
 
 
+import com.otus.algo.algebraic_algorythms_lesson_02.Power;
 import com.otus.algo.harry_potter.HarryPotter;
 import com.otus.algo.string_length_0.StringLength;
 import com.otus.algo.tester.Tester;
@@ -19,7 +20,10 @@ public class Main {
 //        testLuckyTickets();
 
 // Lesson #1. Task #3 Harry Potter Spell
-        guessSpell();
+//        guessSpell();
+
+//        Lesson #2. Task #1. Power
+        testPower();
 
     }
     public static void testStringLength() throws IOException {
@@ -41,4 +45,13 @@ public class Main {
         harryPotter.spell();
     }
 
+    public static void testPower() {
+        Power power = new Power();
+        int degree = 24;
+        for (int i = 0; i < degree; i++) {
+            System.out.println(power.iteration(2, i));
+            System.out.println(power.multiplication(2, i));
+            System.out.println(power.bitDecomposition(2, i));
+        }
+    }
 }
